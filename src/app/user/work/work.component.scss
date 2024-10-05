@@ -1,0 +1,17 @@
+.cover{
+position: absolute;
+bottom: -1;
+opacity: 0;
+transition: 1s;
+}
+.main:hover .cover{
+  position: absolute;
+  display: block;
+  opacity: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+transition: 1s;
+}
+

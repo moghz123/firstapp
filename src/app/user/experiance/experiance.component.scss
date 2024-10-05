@@ -1,0 +1,18 @@
+.p-4::before{
+content: '';
+display: block;
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 9px 9px 9px 0px;
+border-color:transparent rgba(128, 128, 128, 0.692) transparent transparent;
+left: 0;
+top: 10px;
+margin-left: -9px;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

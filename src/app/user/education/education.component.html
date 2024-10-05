@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="mb-4">
+    <span class="opacity-50">Education </span>
+    <h1>Education</h1>
+  </div>
+<div class="row">
+  <div class="col-8">
+<div (click)="toggel(0)" [ngClass]="{'bg-info':!items[0].isOpen , 'bg-dark opacity-50 text-light':items[0].isOpen}" class=" main p-2 d-flex justify-content-between">
+  <h1>master degree graphic desing</h1>
+  <p class="fs-1">+</p>
+</div>
+<div [ngClass]="{'d-block':!items[0].isOpen ,'d-none':items[0].isOpen}" class="d-flex gap-4 border mt-2  p-4" >
+  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+</div>
+  </div>
+  <div class="col-8">
+<div (click)="toggel(1)" [ngClass]="{'bg-info':!items[1].isOpen , 'bg-dark opacity-50 text-light':items[1].isOpen}" class=" main p-2 d-flex justify-content-between">
+  <h1>bacholer degree in computer scince</h1>
+  <p class="fs-1">+</p>
+</div>
+<div [ngClass]="{'d-block':!items[1].isOpen ,'d-none':items[1].isOpen}" class=" gap-4 border mt-2 p-4 " >
+  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+  <p>Separated they live in Bookmarksgrove right</p>
+</div>
+  </div>
+  <div class="col-8">
+<div (click)="toggel(2)" [ngClass]="{'bg-info':!items[2].isOpen , 'bg-dark opacity-50 text-light':items[2].isOpen}" class=" main p-2 d-flex justify-content-between">
+  <h1>diploma in information technology</h1>
+  <p class="fs-1">+</p>
+</div>
+<div [ngClass]="{'d-block':!items[2].isOpen ,'d-none':items[2].isOpen}" class="d-flex gap-4 border mt-2 p-4 " >
+  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+</div>
+  </div>
+  <div class="col-8">
+<div (click)="toggel(3)" [ngClass]="{'bg-info':!items[3].isOpen , 'bg-dark opacity-50 text-light':items[3].isOpen}" class=" main p-2 d-flex justify-content-between">
+  <h1>diploma in information technology</h1>
+  <p class="fs-1">+</p>
+</div>
+<div [ngClass]="{'d-block':!items[3].isOpen ,'d-none':items[3].isOpen}" class="d-flex gap-4 border mt-2 p-4 " >
+  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+</div>
+  </div>
+  <div class="col-8">
+<div (click)="toggel(4)" [ngClass]="{'bg-info':!items[4].isOpen , 'bg-dark opacity-50 text-light':items[4].isOpen}" class=" main p-2 d-flex justify-content-between">
+  <h1>high school secondary Education</h1>
+  <p class="fs-1">+</p>
+</div>
+<div [ngClass]="{'d-block':!items[4].isOpen ,'d-none':items[4].isOpen}" class="d-flex gap-4 border mt-2 p-4 " >
+  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+</div>
+  </div>
+
+
+</div>
+</div>
